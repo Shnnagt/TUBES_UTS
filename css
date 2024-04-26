@@ -1,0 +1,66 @@
+/* CSS Eksternal */
+/* Gaya umum */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #db7997;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f3d2e8;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+/* Inline CSS */
+#myBtn {
+    display: none;
+    border: none;
+    outline: none;
+    background-color: rgba(178, 100, 100, 0.5);
+    color: #000000;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+#myBtn:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
